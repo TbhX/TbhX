@@ -13,7 +13,7 @@ export default function Contact() {
           <div className="flex flex-col items-center justify-center space-y-6">
             <div className="w-32 h-32 rounded-full overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=256&h=256"
+                src=https://media.discordapp.net/attachments/1124099984397176942/1296439200920633405/Screenshot_20241016_014231_Instagram.jpg?ex=673d2358&is=673bd1d8&hm=e9f2b27b8c1871b0730b0000589f5e35a39650892d671ebf3e90215142e8a1d9&?auto=format&fit=crop&w=256&h=256"
                 alt="Tamsir Bah"
                 className="w-full h-full object-cover"
               />
