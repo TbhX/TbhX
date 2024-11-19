@@ -20,7 +20,7 @@ export default function Contact() {
             </div>
             
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-white mb-2">Bah Tamsir</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Tamsir Bah</h3>
               <p className="text-gray-400 mb-2">Co-fondateur & CEO</p>
               <p className="text-violet-400 italic">"Soyez pionnier dans l'audiovisuel et le gaming"</p>
             </div>
