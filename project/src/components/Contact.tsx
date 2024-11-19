@@ -14,7 +14,7 @@ export default function Contact() {
             <div className="w-32 h-32 rounded-full overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=256&h=256"
-                alt="Bah Tamsir"
+                alt="Tamsir Bah"
                 className="w-full h-full object-cover"
               />
             </div>
