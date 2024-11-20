@@ -4,7 +4,7 @@ import { Monitor, Headphones, Users, Trophy, Rocket, Clock } from 'lucide-react'
 const features = [
   {
     icon: Monitor,
-    title: "40 PC Gaming & VR",
+    title: "40 PC Gaming/Consoles, Espace VR et JDR",
     description: "Équipements haut de gamme et expériences VR immersives pour une clientèle exigeante"
   },
   {
