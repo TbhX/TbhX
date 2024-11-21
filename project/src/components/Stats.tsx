@@ -44,17 +44,20 @@ export default function Stats() {
   return (
     <section className="py-24 bg-gradient-to-b from-black to-gray-900">
       <div className="max-w-6xl mx-auto px-4">
+        {/* Titre principal */}
         <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent">
           Potentiel d'Investissement
         </h2>
 
+        {/* Description */}
         <div className="mb-16">
           <p className="text-xl text-center text-gray-300 max-w-3xl mx-auto">
             Le marché du gaming et de l'e-sport connaît une croissance exceptionnelle, 
             offrant une opportunité unique d'investissement dans un secteur d'avenir.
           </p>
         </div>
-        
+
+        {/* Statistiques principales */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {stats.map((stat, index) => (
             <div key={index} className="relative group">
@@ -69,6 +72,7 @@ export default function Stats() {
           ))}
         </div>
 
+        {/* Section des graphiques */}
         <div className="bg-gray-900/50 rounded-2xl p-8 border border-gray-800">
           <h3 className="text-2xl font-bold text-center mb-8 text-white">
             Le Marché en Chiffres
@@ -76,6 +80,16 @@ export default function Stats() {
           <div className="grid md:grid-cols-3 gap-8">
             {marketStats.map((stat, index) => (
               <div key={index} className="text-center">
+                {/* Graphique CSS */}
+                <div className="relative w-20 h-20 mx-auto mb-4">
+                  <div className="absolute inset-0 rounded-full bg-gray-800">
+                    <div
+                      className="absolute inset-0 rounded-full border-[6px] border-violet-500"
+                      style={{ clipPath: `circle(${parseInt(stat.value)}% at 50% 50%)` }}
+                    />
+                  </div>
+                </div>
+                {/* Informations */}
                 <div className="text-3xl font-bold text-violet-500 mb-2">{stat.value}</div>
                 <div className="text-lg font-medium text-white mb-1">{stat.label}</div>
                 <p className="text-gray-400 text-sm">{stat.detail}</p>
