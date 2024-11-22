@@ -27,7 +27,7 @@ export default function Contact() {
             
             <div className="space-y-4 w-full max-w-md">
               <a
-                href="mailto:1818devo@gmail.com"
+                href="mailto:contact@tamsir.fr"
                 className="flex items-center justify-center gap-3 p-4 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 <Mail className="w-5 h-5 text-violet-500" />
