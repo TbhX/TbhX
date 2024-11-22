@@ -31,7 +31,7 @@ export default function Contact() {
                 className="flex items-center justify-center gap-3 p-4 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 <Mail className="w-5 h-5 text-violet-500" />
-                <span className="text-gray-300">1818devo@gmail.com</span>
+                <span className="text-gray-300">contact@tamsir.fr</span>
               </a>
               
               <div className="flex items-center justify-center gap-3 p-4 bg-gray-900 rounded-lg">
