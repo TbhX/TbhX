@@ -28,7 +28,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-gray-300 text-xl md:text-2xl mb-4 opacity-0 animate-fade-in">
-          Votre rendez-vous gaming, 24h/24
+          Votre rendez-vous gaming, 7j/7
         </p>
 
         <p className="text-xl md:text-2xl italic text-violet-400 mb-8 opacity-0 animate-fade-in" style={{animationDelay: '0.3s'}}>
