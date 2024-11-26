@@ -5,7 +5,7 @@ import Stats from './components/Stats';
 import Location from './components/Location';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import LanguageSwitcher from './components/LanguageSwitcher'; // Ajoutez l'importation
+
 
 function App() {
   return (
