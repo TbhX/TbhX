@@ -9,11 +9,6 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
-      {/* Placez le composant LanguageSwitcher où vous souhaitez */}
-      <div className="absolute top-4 right-4 z-10">
-        <LanguageSwitcher text="Welcome to Le91 Arena, the ultimate gaming experience!" />
-      </div>
       
       <Hero />
       <About />
