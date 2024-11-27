@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import translations from './translation.json'; // Import translations
+import translations from '../translation.json'; // Import translations
 
 const LanguageSwitcher = () => {
   const [language, setLanguage] = useState('fr'); // Default language is French
