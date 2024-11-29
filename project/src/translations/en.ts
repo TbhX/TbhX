@@ -114,7 +114,7 @@ export const en = {
     name: "Bah Tamsir",
     role: "Co-founder & CEO",
     quote: "Be a pioneer in audiovisual and gaming",
-    email: "1818devo@gmail.com"
+    email: "contact@tamsir.fr"
   },
   footer: {
     copyright: "Website created for promotional and commercial purposes only • Le91 - Arena ©"
