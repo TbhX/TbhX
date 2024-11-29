@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-text-shine {
+    @apply animate-[shine_8s_ease-in-out_infinite];
+  }
+  
+  .animate-gradient {
+    @apply animate-[gradient_15s_ease_infinite];
+  }
+  
+  .animate-bounce-subtle {
+    @apply animate-[bounce-subtle_2s_ease-in-out_infinite];
+  }
+  
+  .animate-fade-in {
+    @apply animate-[fadeIn_1s_ease-out_forwards];
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: 200% center;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
