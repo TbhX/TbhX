@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <section className="py-24 bg-gradient-to-t from-black to-gray-900">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-4xl mx-auto px-4"> 
         <h2 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-blue-500 to-violet-500 bg-clip-text text-transparent">
           {contact.title}
         </h2>
