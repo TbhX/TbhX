@@ -17,7 +17,7 @@ export default function Contact() {
           <div className="flex flex-col items-center justify-center space-y-6">
             <div className="w-32 h-32 rounded-full overflow-hidden">
               <img
-                src="https://unsplash.com/fr/photos/homme-portant-sony-playstation-vr-MxVkWPiJALs&?auto=format&fit=crop&w=256&h=256"
+                src="https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?ex=673d2358&is=673bd1d8&hm=e9f2b27b8c1871b0730b0000589f5e35a39650892d671ebf3e90215142e8a1d9&?auto=format&fit=crop&w=256&h=256"
                 alt={contact.name}
                 className="w-full h-full object-cover"
               />
