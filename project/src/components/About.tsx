@@ -3,18 +3,18 @@ import { Monitor, Headphones, Users, Trophy, Rocket, Clock } from 'lucide-react'
 import { useLanguage } from '../context/LanguageContext';
 
 const icons = {
-  "40 PC Gaming  Consoles Espace VR et JDR": "Monitor",
-  "40 Gaming PCs  Consoles  JDR & VR Space": "Monitor",
-  "Compétitions E-Sport": "Trophy",
-  "E-Sport Competitions": "Trophy",
-  "Communauté Grandissante": "Users",
-  "Growing Community": "Users",
-  "Innovation Constante": "Rocket",
-  "Constant Innovation": "Rocket",
-  "Accessibilité 24/7": "Clock",
-  "24/7 Accessibility": "Clock",
-  "Studio Podcast & Stream": "Headphones",
-  "Podcast & Stream Studio": "Headphones"
+  "40 PC Gaming  Consoles Espace VR et JDR": Monitor",
+  "40 Gaming PCs  Consoles  JDR & VR Space": Monitor",
+  "Compétitions E-Sport": Troph",
+  "E-Sport Competitions": Trophy,
+  "Communauté Grandissante": Users,
+  "Growing Community": Users,
+  "Innovation Constante": Rocket,
+  "Constant Innovation": Rocket,
+  "Accessibilité 24/7": Clock,
+  "24/7 Accessibility": Clock,
+  "Studio Podcast & Stream": Headphones,
+  "Podcast & Stream Studio": Headphones
 };
 
 export default function About() {
