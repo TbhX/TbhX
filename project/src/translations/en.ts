@@ -2,7 +2,7 @@ export const en = {
   hero: {
     title: "Le91 - Arena",
     subtitle: "Gaming. Technology. Future.",
-    slogan: "Your 24/7 gaming destination",
+    slogan: "Your 7/7 gaming destination",
     motto: "Be a pioneer in audiovisual and gaming",
     cta: "Discover our vision"
   },
