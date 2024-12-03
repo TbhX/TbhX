@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 const icons = {
   "40 PC Gaming  Consoles Espace VR et JDR": Monitor",
   "40 Gaming PCs  Consoles  JDR & VR Space": Monitor",
-  "Compétitions E-Sport": Troph",
+  "Compétitions E-Sport": Troph,
   "E-Sport Competitions": Trophy,
   "Communauté Grandissante": Users,
   "Growing Community": Users,
