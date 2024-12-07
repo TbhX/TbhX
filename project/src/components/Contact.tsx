@@ -27,11 +27,11 @@ export default function Contact() {
             
             <div className="space-y-4 w-full max-w-md">
               <a
-                href="mailto:contact@tamsir.fr"
+                href="mailto:contact@le91arena.com"
                 className="flex items-center justify-center gap-3 p-4 bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors"
               >
                 <Mail className="w-5 h-5 text-violet-500" />
-                <span className="text-gray-300">contact@tamsir.fr</span>
+                <span className="text-gray-300">contact@le91arena.com</span>
               </a>
               
               <div className="flex items-center justify-center gap-3 p-4 bg-gray-900 rounded-lg">
